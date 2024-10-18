@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.input-selection{
+    margin: 20px 0;
+    text-align: center;
+}
+.input-selection label{
+    margin-right: 20px;
+    font-weight: bold;
+}
+.input-selection input{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-selection button{
+    padding: 8px 16px;
+    background-color: #5cb85c;
+    border: none;
+    cursor: pointer;
+}
+.input-selection button:hover{
+    background-color: #4cae4c;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead{
+    background-color: #333;
+    color: white;
+
+}
+th, td
+{
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
